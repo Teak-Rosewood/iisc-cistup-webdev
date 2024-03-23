@@ -1,5 +1,5 @@
 # CiSTUP, IISc: Round 1 Submission
-##### Saatwik Vasistha, email: [saatwik.vasishtha@gmail.com](mailto:saatwik.vasishtha@gmail  .com)
+##### Saatwik Vasistha, email: [saatwik.vasishtha@gmail.com](mailto:saatwik.vasishtha@gmail.com)
 ##### Demonstration:   
 
 https://github.com/Teak-Rosewood/iisc-cistup-webdev/assets/88363398/be5c2b23-5b42-4cb3-b416-71d8849c60db  
