@@ -1,0 +1,23 @@
+version: '3'
+services:
+  server:
+    build: ./server
+    ports:
+      - 5000:5000 
+  client:
+    build: 
+      context: ./client
+      args:
+        - VITE_APP_SERVER_URL=http://localhost:5000
+    ports:
+      - 3000:80
+    depends_on:
+      - server
+  print-urls:
+    image: alpine
+    depends_on:
+      - server
+      - client
+    command: >
+      /bin/sh -c "echo 'Frontend URL: http://localhost:3000' &&
+                  echo 'Backend URL: http://localhost:5000'"
