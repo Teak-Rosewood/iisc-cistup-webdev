@@ -37,10 +37,11 @@ Note: If you wish to not use conda, you must have python 3.9 installed locally
 conda create --name myenv python=3.9
 conda activate myenv
 ```
-Install dependencies
+Install dependencies and model
 ```
 cd server
 pip install -r requirements.txt
+python model/saveModel.py
 ```
 Run the server using gunicorn with 4 processes on port:8000
 ```
